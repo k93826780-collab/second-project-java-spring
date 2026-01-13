@@ -22,6 +22,7 @@ REST API project built with **Spring Boot**, **JPA**, and **H2** database.
 Application configuration is located in `application.properties`.
 
 ### H2 Database
+``` properties
 spring.datasource.url=jdbc:h2:mem:testdb
 spring.datasource.driver-class-name=org.h2.Driver
 spring.datasource.username=sa
@@ -30,7 +31,7 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.h2.console.enabled=true
 spring.h2.console.path=/h2-console
-
+```
 # H2 Console
 H2 database console is available at:
 
@@ -65,9 +66,9 @@ DELETE{id}:
 <img width="1269" height="757" alt="image" src="https://github.com/user-attachments/assets/8235dc60-0dcb-4c99-885b-0ee1a6657f35" />
 
 
-### Functionality
--create a product
--get all products
--get a product by id
--update a product by id
--delete a product by id
+##  Functionality
+- create a product
+- get all products
+- get a product by id
+- update a product by id
+- delete a product by id
