@@ -36,13 +36,14 @@ spring.h2.console.path=/h2-console
 H2 database console is available at:
 
 http://localhost:8080/h2-console
-<img width="1919" height="919" alt="image" src="https://github.com/user-attachments/assets/0c922a93-8ec7-442a-8d15-cb3dd8c59cce" />
+<img width="1916" height="299" alt="image" src="https://github.com/user-attachments/assets/6fd3e208-1eb6-49cf-ade3-8efb4047ec5b" />
 
-JDBC URL:
+
+## JDBC URL:
 jdbc:h2:mem:testdb
-USERNAME:
+## USERNAME:
 sa
-No password needed
+## No password needed
 
 # API Documentation (Swagger)
 Swagger UI is available at:
